@@ -1,0 +1,24 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-usb-audio-7-1-channel-speaker-on-mcxn947" type="demo" format="projectfile" versionSchema="1.0.0" name="usb audio 7.1 channel speaker on mcxn947">
+    <display_title>
+        How to implement USB audio 7.1 channel speaker on MCXN947
+    </display_title>
+    <overview>
+        <![CDATA[This demo will show you how to implement a USB audio 7.1 channel speaker on MCXN947]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="sai"></peripheral>
+        <peripheral name="usb"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="audio"></category>
+    </categories>
+</data:item>
